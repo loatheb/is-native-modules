@@ -1,4 +1,4 @@
-# Is-Native-Module
+# Is-Native-Modules
 > check the module is native module or not
 
 ### import
