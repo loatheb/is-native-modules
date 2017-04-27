@@ -1,4 +1,5 @@
 # Is-Native-Modules
+[![Build Status](https://travis-ci.org/loatheb/is-native-modules.svg?branch=master)](https://travis-ci.org/loatheb/is-native-modules) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)   [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)    
 > check the module is native module or not
 
 ### import
