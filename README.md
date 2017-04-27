@@ -15,7 +15,7 @@ npm i --save is-native-modules
 
 * ES6 module
  
- ```js
+  ```js
   import isNativeModules from 'is-native-modules'
   ```
 
