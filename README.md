@@ -26,4 +26,11 @@ npm i --save is-native-modules
 isNativeModules('path') // true
 
 isNativeModules('other_module') // false
+
+isNativeModules(['path', 'fs']) // [true, true]
+
+isNativeModules(['other_module', 'some_module']) // [false, false]
+
+isNativeModules([['path', 'fs'], ['other_module', 'some_module']]) // [[true, true], [false, false]]
+
 ```
