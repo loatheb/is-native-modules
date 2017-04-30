@@ -33,3 +33,12 @@ describe('fake modules array params', () => {
       .toEqual(otherModuleNamesArray.map(module => false))
   })
 })
+
+describe('modules multidimensional array params', () => {
+  const nativesModuleNamesArray = nativesModuleNames.split(' ')
+  const otherModuleNamesArray = otherModuleNames.split(' ')
+  it('module should return a two-dimensional array', () => {
+    expect(isNativeModules([nativesModuleNamesArray, otherModuleNamesArray]))
+      .toEqual([Array(nativesModuleNamesArray.length).fill(true), Array(otherModuleNamesArray.length).fill(false)])
+  })
+})
