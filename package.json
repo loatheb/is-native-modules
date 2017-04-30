@@ -23,6 +23,6 @@
   "homepage": "https://github.com/loatheb/is-native-module#readme",
   "devDependencies": {
     "eslint": "^3.19.0",
-    "jest-cli": "^19.0.2"
+    "jest": "^19.0.2"
   }
 }
